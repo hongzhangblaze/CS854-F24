@@ -29,25 +29,25 @@ We will read recent papers to understand trends and important topics in serving 
 | Date    | Readings                       | Presenter | Summary | Reviewer
 | --------| -------------------------------| --------- | ------- | -------
 | Sept 6  | **Introduction** | Hong
-|         | [How to Read a Paper] (http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) 
-|         | [How to Give a Bad Talk] (http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) 
-|         | [Writing Reviews for Systems Conferences] (http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
-|         | [LLM Inference Serving: Survey of Recent Advances and Opportunities] (https://arxiv.org/pdf/2407.12391)
-|         | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems] (https://arxiv.org/pdf/2312.15234)   
-|         | [The Datacenter as a Computer] (https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2, optional)
-|         | [The Llama 3 Herd of Models] (https://arxiv.org/abs/2407.21783) (optional)
+|         | [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) 
+|         | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) 
+|         | [Writing Reviews for Systems Conferences](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
+|         | [LLM Inference Serving: Survey of Recent Advances and Opportunities](https://arxiv.org/pdf/2407.12391)
+|         | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems](https://arxiv.org/pdf/2312.15234)   
+|         | [The Datacenter as a Computer](https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2, optional)
+|         | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (optional)
 | Sept 13 | **Serving Systems for GenAI _vs._ traditional DNN** 
-|         | [The Illustrated Transformer] (https://jalammar.github.io/illustrated-transformer/) (Required) | Xiaodian
-|         | [The Illustrated GPT2] (https://jalammar.github.io/illustrated-gpt2/) (optional)
-|         | [Attention is All You Need] (https://dl.acm.org/doi/10.5555/3295222.3295349) (optional)
-|         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up] (https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) 
-|         | [Orca: A Distributed Serving System for Transformer-Based Generative Models] (https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) 
+|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required) | Xiaodian
+|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/) (optional)
+|         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349) (optional)
+|         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) 
+|         | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) 
 | Sep 20  | **Memory Management**
-|         | [Efficient Memory Management for Large Language Model Serving with PagedAttention] (https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
-|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention] (https://arxiv.org/abs/2405.04437) (Required)
-|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU] (https://proceedings.mlr.press/v202/sheng23a.html) (Required) 
+|         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
+|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
+|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) 
 | Sep 27  | **Prefill _vs._ Decode**
-|         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) + [Splitwise: Efficient generative LLM inference using phase splitting] (https://arxiv.org/pdf/2311.18677) (Required)
+|         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) + [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Required)
 |         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills] (https://arxiv.org/pdf/2308.16369) +  [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) 
 |         | 
 | Sep 27  | **Parallelism**

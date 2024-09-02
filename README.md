@@ -28,27 +28,54 @@ We will read recent papers to understand trends and important topics in serving 
 
 | Date    | Readings                       | Presenter | Summary | Reviewer
 | --------| -------------------------------| --------- | ------- | -------
-| Sept 6  | **Introduction** | [Hong]
+| Sept 6  | **Introduction** | Hong
 |         | [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) 
 |         | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) 
 |         | [Writing Reviews for Systems Conferences](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
-|         | [The Datacenter as a Computer](https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2, optional)
-|         | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (optional)
 |         | [LLM Inference Serving: Survey of Recent Advances and Opportunities] (https://arxiv.org/pdf/2407.12391)
 |         | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems] (https://arxiv.org/pdf/2312.15234)   
-|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)  
-|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/)
-| Sept 13 | **Serving Systems: GenAI _vs._ traditional DNN**
-|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required) | 
-|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/)
-|         | [Challenges and Applications of Large Language Models](https://arxiv.org/abs/2307.10169)
-|         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349)
-|         |
-| Sep 20  | **Memory and Cache Management**
-| Oct 15  | **Simulation Framework for GenAI Serving**
-|         | [Multimodality and Large Multimodal Models (LMMs)](https://huyenchip.com/2023/10/10/multimodal.html) (Required)
-|         | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744)
-|         | [NExT-GPT: Any-to-Any Multimodal LLM](https://openreview.net/forum?id=NZQkumsNlf)
+|         | [The Datacenter as a Computer](https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2, optional)
+|         | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (optional)
+| Sept 13 | **Serving Systems for GenAI _vs._ traditional DNN** 
+|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required) | Xiaodian
+|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/) (optional)
+|         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349) (optional)
+|         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up] (https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) 
+|         | [Orca: A Distributed Serving System for Transformer-Based Generative Models] (https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) 
+| Sep 20  | **Memory Management**
+|         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
+|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
+|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) 
+| Sep 27  | **Prefill _vs._ Decode**
+|         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
+|         | [Splitwise: Efficient generative LLM inference using phase splitting] (https://arxiv.org/pdf/2311.18677) (Required)
+|         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills] (https://arxiv.org/pdf/2308.16369) (Required)
+|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) 
+|         | 
+| Sep 27  | **Parallelism**
+|         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving] (https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
+|         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference] (https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
+|         | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism (https://proceedings.mlr.press/v202/sheng23a.html(https://arxiv.org/pdf/2404.09526) (Required) 
+
+
+
+
+(pipeline)
+
+
+
+| Oct 15  | **Cache Management**
+|         | [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707) (Required)
+|         | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240)(Required)
+|         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention] (https://arxiv.org/abs/2403.19708) (Required)
+|         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache] (https://arxiv.org/abs/2401.02669) (Optional)
+|         | [Stateful Large Language Model Serving with Pensieve] https://arxiv.org/pdf/2312.05516 (Optional)
+
+
+
+
+
+
 | Sep  27 | [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/forum?id=B1ckMDqlg) (Required)
 |         | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://openreview.net/forum?id=ztn8FCR1td) (Required)
 |         | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)
@@ -222,5 +249,5 @@ You must meet the following milestones (unless otherwise specified in future ann
 
 
 ## Acknowledgement
-*The course content and website are partially inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich) and CS8803: Systems for AI - LLMs(Gatech) 
+*The course is inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich), CS8803: Systems for AI - LLMs(Gatech), and CS 598: Systems for Generative AI (UIUC).
 

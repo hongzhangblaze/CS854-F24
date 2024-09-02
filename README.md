@@ -3,125 +3,126 @@
 ## Administrivia
 * Lectures: DC2568, Friday: 1:30 PM – 4:20 PM
 
-### Lecturer
+### Instructor
+[Hong Zhang](https://hongzhangblaze.github.io/) 
+Email: honzhang at uwaterloo dot ca
+Office: DC3530 (office hours by appointment)
 
-| :---------------- | :--- | :----------- |
-| [Hong Zhang](https://hongzhangblaze.github.io/) () | Faculty | DC3530. **By appointments.**
-
-
-Presentation slides and paper summaries should be emailed to [eecs598-genai-staff@umich.edu](mailto:eecs598-genai-staff@umich.edu).
+Presentation slides and paper summaries should be emailed to the email address above.
 
 ## Course Description
-This class will introduce you to the key concepts and the state-of-the-art in practical, scalable, and fault-tolerant software systems for emerging Generative AI (GenAI) and encourage you to think about either building new tools or how to apply an existing one in your own research.
+Generative AI (GenAI) applications are revolutionizing the world. The latest GenAI models such as GPT-4 have achieved unprecedented performance in various tasks such as code generation, text classification, and problem reasoning. However, serving GenAI applications, i.e., deploying trained GenAI models on a compute cluster and conducting model inference for incoming user requests, presents challenges in systems design. 
 
-Since datacenters and cloud computing form the backbone of modern computing, we will start with an overview of the two. 
-We will then take a deep dive into systems for the Generative AI landscape, focusing on different types of problems. 
-Our topics will include: basics on generative models from a systems perspective; systems for GenAI lifecycle including pre-training, fine-tuning/alignment, grounding, and inference serving systems; etc. 
-We will cover GenAI topics from top conferences that take a systems view to the relevant challenges.
+This seminar-based course will introduce you to the key concepts and the state-of-the-art in model serving systems for emerging Generative AI (GenAI) and encourage you to think about either building new tools or applying an existing one in your own research. The course will cover various important topics for serving systems for GenAI, including efficient batching, memory/cache management, request scheduling and load balancing, and compound AI systems such as Retrieval-Augmented Generation. Note that this course is **NOT focused on AI methods**. Instead, we will focus on how to build efficient serving systems for existing AI methods. 
 
-Note that this course is **NOT focused on AI methods**. 
-Instead, we will *focus on how one can build software systems* so that existing AI methods can be used in practice and new AI methods can emerge. 
 
 ### Prerequisites
-Students are expected to have good programming skills and must have taken *at least one* undergraduate-level systems-related course (from operating systems/EECS482, databases/EECS484, distributed systems/EECS491, and networking/EECS489).
-Having an undergraduate ML/AI course may be helpful, but not required or necessary. 
+Students are expected to have strong programming skills and have completed at least one undergraduate-level systems-related course, such as Operating Systems, Databases, Distributed Systems, or Computer Networks. While an undergraduate course in Machine Learning or Artificial Intelligence would be beneficial, it is not a requirement.
 
-### Textbook
-This course has no textbooks.
-We will read recent papers from top venues to understand trends in GenAI systems and their applications.
+### Textbook and Exams
+This course has **no** textbooks or exams.
+We will read recent papers to understand trends and important topics in serving systems for GenAI.
 
 ## Tentative Schedule and Reading List
-*This is an evolving list and subject to changes due to the breakneck pace of GenAI innovations.* 
+*This is an evolving list and the schedule is subject to changes.* 
 
 | Date    | Readings                       | Presenter | Summary | Reviewer
 | --------| -------------------------------| --------- | ------- | -------
-| Jan 11  | **Introduction** | [Mosharaf](Slides/011124-MChowdhury.pdf)
-|         | [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) (Required)
-|         | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) (Required)
+| Sept 6  | **Introduction** | [Hong]
+|         | [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) 
+|         | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) 
 |         | [Writing Reviews for Systems Conferences](http://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)
-|         | [The Datacenter as a Computer](https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2)
-|         | **GenAI Basics**
-| Jan 16  | [Challenges and Applications of Large Language Models](https://arxiv.org/abs/2307.10169) | [Jiachen](Slides/011624-LLMSys-JLiu.pdf) | - 
-|         | [Attention Is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349)
-|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required)
-|         | [The Transformer Family Version 2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
-| Jan 18  | [High-Resolution Image Synthesis With Latent Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | [Jiachen](/Slides/011824-CLIP-Jiachen.pptx), [Yuxuan](/Slides/011824-Diffusion-Yuxuan.pptx) | [Ari, Jack, Vishwa](/Summaries/011824-Diffusion-CLIP.pdf)
-|         | [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
-|         | [Adding Conditional Control to Text-to-Image Diffusion Models](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.html)
-|         | [CLIP: Connecting Text and Images](https://openai.com/research/clip) (Required)
-|         | [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) (Required)
-| Jan 23  | [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)  | [Shiqi, Aakash, Yong](/Slides/012324-LVLM.pptx) | [Yuxuan, Daniel, Oh Jun](/Summaries/012324-Multimodal.pdf)
-|         | [DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention](https://arxiv.org/abs/2309.14327)
-|         | [Flamingo: a Visual Language Model for Few-Shot Learning](https://proceedings.neurips.cc/paper_files/paper/2022/hash/960a172bc7fbf0177ccccbb411a7d800-Abstract-Conference.html)
+|         | [The Datacenter as a Computer](https://link.springer.com/book/10.1007/978-3-031-01761-2) (Chapters 1 and 2, optional)
+|         | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (optional)
+|         | [LLM Inference Serving: Survey of Recent Advances and Opportunities] (https://arxiv.org/pdf/2407.12391)
+|         | [Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems] (https://arxiv.org/pdf/2312.15234)   
+|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)  
+|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/)
+| Sept 13 | **Serving Systems: GenAI _vs._ traditional DNN**
+|         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required) | 
+|         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/)
+|         | [Challenges and Applications of Large Language Models](https://arxiv.org/abs/2307.10169)
+|         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349)
+|         |
+| Sep 20  | **Memory and Cache Management**
+| Oct 15  | **Simulation Framework for GenAI Serving**
 |         | [Multimodality and Large Multimodal Models (LMMs)](https://huyenchip.com/2023/10/10/multimodal.html) (Required)
-| Jan 25  | [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://dl.acm.org/doi/abs/10.5555/3586589.3586709) | [Ari, Jack, Vishwa](/Slides/012324-MoE.pptx) | [Maya, Aidan, Christopher](/Summaries/012325-MoE.pdf)
-|         | [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/forum?id=B1ckMDqlg) (Required)
-|         | [Scaling Vision-Language Models with Sparse Mixture of Experts](https://arxiv.org/abs/2303.07226)
-|         | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) (Required)
-| Jan 30  | **No Lecture / Work on Project Proposal**
+|         | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744)
+|         | [NExT-GPT: Any-to-Any Multimodal LLM](https://openreview.net/forum?id=NZQkumsNlf)
+| Sep  27 | [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/forum?id=B1ckMDqlg) (Required)
+|         | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://openreview.net/forum?id=ztn8FCR1td) (Required)
+|         | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)
+| Sep 10  | **No Lecture: Work on Project Proposals**
 |         | [Worse is Better](https://en.wikipedia.org/wiki/Worse_is_better) (Required)
-|         | [Hints and Principles for Computer System Design](https://arxiv.org/abs/2011.02455)
+| Sep 12  | **No Lecture: Work on Project Proposals**
+|         | [Hints and Principles for Computer System Design](https://arxiv.org/abs/2011.02455) (Required)
 |         | **Pre-Training**
-| Feb  1  | [Pathways: Asynchronous Distributed Dataflow for ML](https://proceedings.mlsys.org/paper_files/paper/2022/hash/37385144cac01dff38247ab11c119e3c-Abstract.html) (Required) | [Yuxuan, Finn, Marwa](/Slides/010224-Pathways%20&%20Megatron.pptx) | [Daniel, Norman, Zhixiang](/Summaries/020124-pathway-megatron.pdf) | Maya, Aidan, Christopher
-|         | [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209) (Required)
-| Feb  6  | [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zheng-lianmin) (Required) | [Insu Jang](/Slides/020624-alpa-oobleck-Insu.pptx) | - | Jiaheng, Jeremy, Zhenning 
-|         | [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://dl.acm.org/doi/10.1145/3600006.3613152) (Required) |
-|         | **Fine Tuning / Alignment**
-| Feb  8  | [LoRA: Low-Rank Adaptation of Large Language Models](https://openreview.net/forum?id=nZeVKeeFYf9) (Required) | [Mehar, Parth, Zachary](/Slides/020824-Lora-RLHF.pdf) | [Lingxiao, Shoma, Christopher](/Summaries/020824-LoRA-InstructGPT-SLoRA.pdf) | Leah, Zin, Rabia
-|         | [Training Language Models to Follow Instructions with Human Feedback](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html) (Required)
-|         | [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/abs/2311.03285)
-| Feb 13  | [Finetuned Language Models Are Zero-Shot Learners](https://openreview.net/forum?id=gEZrGCozdqR) (Required) | [Yash, Aniket](/Slides/021324-instruction-tuning-LIMA.pdf)	| - | Filippos Bellos, Yayuan Li
-|         | [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206) (Required)
-|         | [A Picture is Worth a Thousand Words: Principled Recaptioning Improves Image Generation](https://arxiv.org/abs/2310.16656)
+| Sep 17  | [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209) (Required)
+|         | [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zheng-lianmin) 
+|         | [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://dl.acm.org/doi/10.1145/3600006.3613152) (Required)
+|         | [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://www.usenix.org/conference/nsdi24/presentation/jiang-ziheng)
+| Sep 19  | [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://dl.acm.org/doi/abs/10.14778/3611540.3611569) (Required)
+|         | [RingAttention with Blockwise Transformers for Near-Infinite Context](https://openreview.net/forum?id=WsRHpHH4s0)
+|         | [Tutel: Adaptive Mixture-of-Experts at Scale](https://proceedings.mlsys.org/paper_files/paper/2023/hash/5616d34cf8ff73942cfd5aa922842556-Abstract-mlsys2023.html) (Required)
+| Sep 24  | [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://dl.acm.org/doi/10.1145/3458817.3476205) (Required)
+|         | [Reducing Activation Recomputation in Large Transformer Models](https://proceedings.mlsys.org/paper_files/paper/2023/hash/80083951326cf5b35e5100260d64ed81-Abstract-mlsys2023.html) (Required)
+|         | [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://openreview.net/forum?id=hYHsrKDiX7)
+| Sep 26  | [FastFlow: Accelerating Deep Learning Model Training with Smart Offloading of Input Data Pipeline](https://dl.acm.org/doi/abs/10.14778/3579075.3579083) (Required)
+|         | [Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters](https://arxiv.org/abs/2307.12169) (Required)
+|         | [Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models with Adaptive Expert Placement](https://arxiv.org/abs/2407.04656)
+|         | **Post-Training**
+| Oct  1  | [LoRA: Low-Rank Adaptation of Large Language Models](https://openreview.net/forum?id=nZeVKeeFYf9) (Required)
+|         | [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206) 
+|         | [The Llama 3 Herd of Models (Section 4)](https://arxiv.org/abs/2407.21783) (Required)
 |         | **Inference**
-| Feb 15  | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | [Daniel, Norman, Zhixiang](/Slides/021524-Orca-%20PagedAttention-Approx%20Caching.pptx)	| [Xueshen, Juechu](/Summaries/021524-orca-vllm-approx.pdf) | Yuxuan, Finn, Marwa
-|         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
-|         | [Approximate Caching for Efficiently Serving Diffusion Models](https://arxiv.org/abs/2312.04429) (Required)
-| Feb 20  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/conference/osdi23/presentation/li-zhouhan) (Required) | [Luke, Daniel, Oh Jun](/Slides/022024-SARATHI-alpaserve-spec.pdf) |	[Jiaheng, Jeremy, Zhenning](/Summaries/022124-efficient-inference.pdf) | Shiqi, Aakash, Yong
-|         | [Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/abs/2302.01318) (Required)
-|         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/abs/2308.16369)
-| Feb 22  | **Buffer**
+| Oct  3  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
+|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
+|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html)
+| Oct  8  | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://openreview.net/forum?id=mZn2Xyh9Ec) (Required)
+|         | [FlashDecoding++: Faster Large Language Model Inference with Asynchronization, Flat GEMM Optimization, and Heuristics](https://proceedings.mlsys.org/paper_files/paper/2024/hash/5321b1dabcd2be188d796c21b733e8c7-Abstract-Conference.html)
+|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
+| Oct 10  | [Splitwise: Efficient Generative LLM Inference Using Phase Splitting](https://ieeexplore.ieee.org/abstract/document/10609649) (Required)
+|         | [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin)
+|         | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required)
+
+| Oct 17  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/abs/2404.16283) (Required)
+|         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)
+|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/conference/osdi24/presentation/agrawal)
+| Oct 22  | **Mid-Semester Presentations**
+| Oct 24  | **Mid-Semester Presentations**
+| Oct 29  | **No Lecture: Recalibrate Projects**
+| Oct 31  | **No Lecture: Work on Projects**
+| Nov  5  | **No Lecture: Work on Projects**
+| Nov  7  | [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) (Required)
+|         | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Required)
+|         | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ)
+| Nov 12  | [AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html) (Required)
+|         | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) (Required)
+|         | [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://dl.acm.org/doi/10.1145/3620665.3640411)
 |         | **Grounding**
-| Mar  5  | [REALM: Retrieval-Augmented Language Model Pre-Training](https://proceedings.mlr.press/v119/guu20a.html) (Required) |[ Maya, Aidan, Christopher](/Slides/03052024-Retrieval-based%20Grounding%20for%20LLMs.pptx)	| [Mehar, Parth, Zachary](/Summaries/03052024-REALM%20&%20RETRO.pdf) | Ari, Jack, Vishwa
-|         | [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://aclanthology.org/2022.naacl-main.272/)
-|         | [Improving Language Models by Retrieving from Trillions of Tokens](https://proceedings.mlr.press/v162/borgeaud22a.html) (Required)
-| Mar  7  | [Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs](https://ieeexplore.ieee.org/abstract/document/8594636) (Required) | [Filippos, Yayuan](/Slides/030724-HNSW-memgpt.pptx) | [Yash, Aniket](/Summaries/20240307_NSWGraphs_MemGPT_Summary.pdf) | 
-|         | [Billion-Scale Similarity Search with GPUs](https://ieeexplore.ieee.org/document/8733051)
-|         | [LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers](https://arxiv.org/abs/2310.03294)
-|         | [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) (Required)
-| Mar 12  | **Mid-Semester Presentations**
-| Mar 14  | **Mid-Semester Presentations**
-|         | **Systems Optimizations**
-| Mar 19  | [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://papers.nips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html) (Required) | [Jiaheng, Jeremy, Zhenning](/Slides/032024-FlashAttention-Palm.pptx) | [Leah, Zin, Rabia](/Summaries/031924-transformer-efficiency.pdf) | Mehar, Parth, Zachary
-|         | [Efficiently Scaling Transformer Inference](https://proceedings.mlsys.org/paper_files/paper/2023/hash/523f87e9d08e6071a3bbd150e6da40fb-Abstract-mlsys2023.html) (Required)
-|         | [Full Stack Optimization of Transformer Inference: a Survey](https://arxiv.org/abs/2302.14017)
-|         | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691)
-| Mar 21  | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) | [Xueshen, Juechu](/Slides/032124-FlexGen-ZeRO-Infinity.pptx) | [Shiqi, Aakash, Yong](/Summaries/032124-FlexGen-ZeRO-Infinity.pdf) | Yash, Aniket
-|         | [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://dl.acm.org/doi/10.1145/3458817.3476205) (Required)
-| Mar 26  | [GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://openreview.net/forum?id=tcbBPnfwxS) (Required) | [Lingxiao, Shoma, Christopher](/Slides/032624-GPTQ-LargeInference.pptx) | [Yuxuan, Finn, Marwa](/Summaries/032624-quantize.pdf) | Daniel, Norman, Zhixiang
-|         | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://papers.nips.cc/paper_files/paper/2022/hash/c3ba4962c05c49636d4c6206a97e9c8a-Abstract-Conference.html)
-|         | [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/) (Required)
-| Mar 28  | **Buffer**
-|         | **Special Topics**
-| Apr  2  | [Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training](https://www.usenix.org/conference/nsdi23/presentation/you) | [Jae-Won Chung](/Slides/040224-energy.pdf) | - | Yuxuan, Daniel, Oh 
-|         | [Perseus: Removing Energy Bloat from Large Model Training](https://arxiv.org/abs/2312.06902) (Required)
-|         | [POLCA: Power Oversubscription in LLM Cloud Providers](https://arxiv.org/abs/2308.12908) (Required)
-| Apr  4  | [Sociotechnical Safety Evaluation of Generative AI Systems](https://arxiv.org/abs/2310.11986) (Required) |  Jiachen  | Filippos, Yayuan | Lingxiao, Shoma, Christopher
+| Nov 14  | [Improving Language Models by Retrieving from Trillions of Tokens](https://proceedings.mlr.press/v162/borgeaud22a.html)
+|         | [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://openreview.net/forum?id=hSyW5go0v8) (Required)
+|         | [Fast Vector Query Processing for Large Datasets Beyond GPU Memory with Reordered Pipelining](https://www.usenix.org/conference/nsdi24/presentation/zhang-zili-pipelining) (Required)
+|         | **GenAI (for) Systems**
+| Nov 19  | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/conference/osdi24/presentation/lin-chaofan) (Required)
+|         | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
+|         | [Automatic Root Cause Analysis via Large Language Models for Cloud Incidents](https://dl.acm.org/doi/10.1145/3627703.3629553) (Required)
+|         | **Power and Energy Optimizations**
+| Nov 21  | [Perseus: Reducing Energy Bloat from Large Model Training](https://arxiv.org/abs/2312.06902) (Required)
+|         | [DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency](https://arxiv.org/abs/2408.00741) (Required)
+|         | [Characterizing Power Management Opportunities for LLMs in the Cloud](https://dl.acm.org/doi/abs/10.1145/3620666.3651329)
+|         | **Ethical Considerations**
+| Nov 26  | [Sociotechnical Safety Evaluation of Generative AI Systems](https://arxiv.org/abs/2310.11986) (Required)
 |         | [On the Dangers of Stochastic Parrots: Can Language Models be too Big?🦜](https://dl.acm.org/doi/abs/10.1145/3442188.3445922) (Required) 
 |         | [Foundation Models and Fair Use](https://arxiv.org/abs/2303.15715)
-| Apr  9  | **Buffer**
-| Apr 11  | [Extracting Training Data from Large Language Models](https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting) (Required) | [Leah, Zin, Rabia](/Slides/041124-Security%20Risks%20of%20GenAI.pdf) | [Luke](/Summaries/20240411-ExtractingTrainingData.pdf) | Xueshen, Juechu
-|         | [Extracting Training Data from Diffusion Models](https://www.usenix.org/conference/usenixsecurity23/presentation/carlini) (Required)
-|         | [Identifying and Mitigating the Security Risks of Generative AI](https://arxiv.org/abs/2308.14840)
-| Apr 16  | **No Class: Prep for Poster Presentation** |
+| Nov 28  | **No Lecture: Thanksgiving Recess**
+| Dec  3  | **No Lecture: Work on Posters**
 |         | [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) (Required)
-| Apr 18  | **Final Poster Presentations**<br>Tishman Hall @Beyster<br>(10:30AM - 12PM) | [Template](/Resources/poster.pptx) |
+| Dec  5  | **Final Poster Presentations**<br>TBA
 
 
 ## Policies
 
-### Honor Code
-[The Engineering Honor Code](https://ecas.engin.umich.edu/honor-council/honor-code/) applies to all activities related to this course.
 
 ### Groups
 All activities of this course will be performed in **groups of 2-3 students**.
@@ -218,3 +219,8 @@ You must meet the following milestones (unless otherwise specified in future ann
 | Participation           | 10%    | 
 | Project Report          | 40%    | 
 | Project Presentations   | 20%    | 
+
+
+## Acknowledgement
+*The course content and website are partially inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich) and CS8803: Systems for AI - LLMs(Gatech) 
+

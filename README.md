@@ -1,21 +1,13 @@
-# CS854-F24
+# CS854-Fall24: Advanced Topics in Computer Systems --- Model Serving Systems for GenAI
 
 ## Administrivia
-* Catalog Number: 34478
-* Lectures/Discussion: 133 CHRYS, TTh: 10:30 AM – 12:00 PM
-* Projects/Makeup: 1610 IOE, F 1:30 PM – 2:30 PM
-* Counts as: Software Depth (PhD); Technical Elective and 500-Level (MS/E)
+* Lectures: DC2568, Friday: 1:30 PM – 4:20 PM
 
-### Team
+### Lecturer
 
-| Member (uniqname) | Role | Office Hours |
 | :---------------- | :--- | :----------- |
-| [Mosharaf Chowdhury](http://www.mosharaf.com/) (mosharaf) | Faculty | 4820 BBB. **By appointments only.**
-| [Jiachen Liu](https://websites.umich.edu/~amberljc/) (amberljc) | GSI | 4828 BBB. F 12:30 - 1:30 PM
+| [Hong Zhang](https://hongzhangblaze.github.io/) () | Faculty | DC3530. **By appointments.**
 
-### Piazza
-**ALL** communication regarding this course must be via [Piazza](https://piazza.com/umich/winter2024/eecs598004w24/).
-This includes questions, discussions, announcements, as well as private messages.
 
 Presentation slides and paper summaries should be emailed to [eecs598-genai-staff@umich.edu](mailto:eecs598-genai-staff@umich.edu).
 

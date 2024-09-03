@@ -124,7 +124,7 @@ The presenters are free to come up with separate presentations or work together 
 * Explain the differences between related works.
 * Identify strengths and weaknesses of the required reading and propose directions of future research.
 
-*The slides for a presentation must be emailed to the instructor at least 24 hours before the corresponding class.* 
+***Note: ** The slides for a presentation must be emailed to the instructor at least 24 hours before the corresponding class (in \*.pptx format). Do not just re-use slides provided by the paper authors. You may borrow, with attribution, figures, and animations, but your slides should be created independently.* 
 
 
 ### Lecture Summaries
@@ -147,25 +147,23 @@ Use Google doc to enable in-line comments and suggestions.
 *Allocate enough time for your reading, discuss as a group, write the summary carefully, and finally, include key observations from the class discussion.*
 
 ### Post-Presentation Panel Discussion 
-To foster a deeper understanding of the papers and encourage critical thinking, each lecture will be followed by a panel discussion. 
-This discussion will involve three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange.
+To foster a deeper understanding of the papers and to encourage critical thinking, each lecture will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
 #### Roles and Responsibilities
 
 1. **The Authors**
-- Group Assignment: The group that presents the paper and the group that writes the summary will play the role of the paper's authors.
+- The students who present will play the role of the authors.
 - Responsibility: As authors, you are expected to defend your paper against critiques, answer questions, and discuss how you might improve or extend your research in the future, akin to writing a rebuttal during the peer-review process.
 
 
-2. **The Reviewers**
-- Group Assignment: Each group will be assigned to one slot to play the role of reviewers.
+2. **The Reviewers/ **
+- Three additional students will be assigned to be the “reviewers” for the required papers in each class. 
 - Responsibility: Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
 Your goal is to engage in a constructive critique of the paper, simulating a peer review scenario.
 
  
 3. **Rest of the Class**
 - Responsibility: 
-  - You are required to [submit](https://forms.gle/Us8pr5o4R4TtzMzU7) **one insightful question** for each presented papers before each class. 
   - During the panel discussions, feel free to actively **ask questions** and engage in the dialogue. 
 
 ### Participation
@@ -199,5 +197,5 @@ You must meet the following milestones (unless otherwise specified in future ann
 
 
 ## Acknowledgement
-*The course is inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich), CS8803: Systems for AI - LLMs(Gatech), and CS 598: Systems for Generative AI (UIUC).
+*The course is heavily inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich), CS8803: Systems for AI - LLMs(Gatech), and CS 598: Systems for Generative AI (UIUC).
 

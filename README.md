@@ -85,11 +85,11 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs](https://arxiv.org/pdf/2406.01566) (Optional)
 | Nov 22  | **Cache Management**
 |         | [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707) (Required)
-|         | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240)(Required)
-|         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention] (https://arxiv.org/abs/2403.19708) (Required)
-|         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache] (https://arxiv.org/abs/2401.02669) (Optional)
-|         | [Stateful Large Language Model Serving with Pensieve] https://arxiv.org/pdf/2312.05516 (Optional)
-| Nov 22  | **Other Important Topics**
+|         | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240) (Required)
+|         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/abs/2403.19708) (Required)
+|         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional)
+|         | [Stateful Large Language Model Serving with Pensieve](https://arxiv.org/pdf/2312.05516) (Optional)
+| Nov 22  | **（Alternatives）Other Important Topics**
 |         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)
 |         | [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) (Required)
 |         | [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/abs/2311.03285) (Optional)

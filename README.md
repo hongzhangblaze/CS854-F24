@@ -104,17 +104,19 @@ We will read recent papers to understand trends and important topics in serving 
 
 ## Policies
 
+### Participation
+**Before Each Lecture**: Each lecture will have **three _required_ readings that everyone must read and will be presented in the class**. 
+For some lectures, there will be some *background* readings providing necessary knowledge for the corresponding topic.
+There are also some *optional* related reading(s) that the presenter(s) should be familiar with. They are optional for the rest of the class.
 
-### Required Reading
-Each lecture will have **three _required_ readings that everyone must read and will be presented in the class**. 
+**During Lectures**: Active participation is crucial for both your own understanding and to improve the overall quality of the course. You are expected to attend **all** lectures (up to 2 absences allowed for legitimate reasons), and more importantly, participate in class discussions. Not everyone must have add something every day, but it is expected that everyone has something to share over the semester.
 
-There are *background* readings providing some necessary background for the corresponding topic.
+**After Lectures**: Participation also involves contributing to discussions on Piazza. The group responsible for the summary should initiate the (remaining) discussion, and the rest of the members are encouraged to participate.
 
-There are also *optional* related reading(s) that the presenter(s) should be familiar with. They are optional for the rest of the class.
 
 ### Student Lectures
 The course will be structured as a seminar. 
-Each student will be assigned at least one paper to present over the course of the semester. Only the students assigned will present in each class. Since there are three required readings, there will be three student presenters assigned each day.
+Each student will be assigned at least one paper to present over the semester. Only the students assigned will present in each class. Since there are three required readings, there will be three student presenters assigned each day.
 Presentations for each paper should last **around 35-45 minutes** without interruption. However, presenters should expect questions and interruptions throughout. 
 The presenters are free to come up with separate presentations or work together to merge their presentations. However, the goal of your presentation must be the following:
 
@@ -126,26 +128,6 @@ The presenters are free to come up with separate presentations or work together 
 
 ***Note: ** The slides for a presentation must be emailed to the instructor at least 24 hours before the corresponding class (in \*.pptx format). Do not just re-use slides provided by the paper authors. You may borrow, with attribution, figures, and animations, but your slides should be created independently.* 
 
-
-### Lecture Summaries
-Each group will also be assigned to **write summaries for at least one lectures**. 
-The summary assigned to a group will not be the reading they gave the lecture on.
-
-A paper summary must address the following four questions in sufficient details (2-3 pages):
-
-* What is the problem addressed in the lecture, and why is this problem important?
-* What is the state of related works in this topic?
-* What is the proposed solution, and what key insight guides their solution?
-* What is one (or more) drawback or limitation of the proposal?
-* What are potential directions for future research?
-
-*The paper summary of a paper must be emailed to the instructor team within 24 hours after its presentation.* 
-**Late reviews will not be counted.** 
-You should use [this format](Summaries/Template.md) for writing your summary.
-Use Google doc to enable in-line comments and suggestions.
-
-*Allocate enough time for your reading, discuss as a group, write the summary carefully, and finally, include key observations from the class discussion.*
-
 ### Post-Presentation Panel Discussion 
 To foster a deeper understanding of the papers and to encourage critical thinking, each lecture (from Lecture 3) will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
@@ -155,46 +137,37 @@ To foster a deeper understanding of the papers and to encourage critical thinkin
 - The students who present will play the role of the authors.
 - Responsibility: As authors, you are expected to defend your paper against critiques, answer questions, and discuss how you might improve or extend your research in the future, akin to writing a rebuttal during the peer-review process.
 
-
-2. **The Reviewers/ **
-- Three additional students will be assigned to be the “reviewers” for the required papers in each class. 
+2. **The Reviewers**
+- Additional students will be assigned to be the “reviewers” for the required papers in each class. 
 - Responsibility: Each reviewer will review all three required papers, and write a detailed review for each. The review must be 1-2 pages long. Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
 Your goal is to engage in a constructive critique of the paper, simulating a peer review scenario.
 - You must use this [template](https://github.com/hongzhangblaze/CS854-F24/blob/main/review_template.txt) for your review. You should submit your reviews before the lecture. Late submissions will not be entertained. 
 
- 
 3. **Rest of the Class**
 - Responsibility: 
   - During the panel discussions, feel free to actively **ask questions** and engage in the dialogue. 
 
-### Participation
-Given the discussion-based nature of this course, participation is required both for your own understanding and to improve the overall quality of the course.
-You are expected to attend **all** lectures (you may skip up to 2 lectures due to legitimate reasons), and more importantly, participate in class discussions.
-
-A key part of participation will be in the form of discussion in Piazza.
-The group in charge of the summary should initiate the discussion and the rest should participate.
-Not everyone must have add something every day, but it is expected that everyone has something to say over the semester.
-
 ### Project
-You will have to complete substantive work an instructor-approved problem and have original contribution.
+You will have to complete substantive work on an instructor-approved problem and have original contributions.
 Surveys are not permitted as projects; instead, each project must contain a survey of background and related work.
 
 You must meet the following milestones (unless otherwise specified in future announcements) to ensure a high-quality project at the end of the semester:
 
-* Form a group of 2-3 members and [declare your group's membership and paper preferences](https://forms.gle/t8n6V9ewJoDWTaSL9) by **January 23**. After this date, we will form groups from the remaining students.
-* Turn in a 2-page draft proposal (including references) by **February 9**. Remember to include the names and Michigan email addresses of the group members. 
-* Each group must present mid-semester progress during class hours on **March 12 and March 14**.
-* Each group must turn in an 8-page final report and your code via email **on or before 6:00PM EST on May 1.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. The self-contained (i.e., include ALL dependencies) code must be submitted as a zip file. Each zip file containing the code must include a README file with a step-by-step guide on how to compile and run the provided code.
-* You can find how to access GPU resources [here](./Resources/Starting%20with%20Cloudlab).
+* Form a group of 2-3 members by **Sept 27**. After this date, we will form groups from the remaining students.
+* Turn in a 2-page draft proposal (including references) by **Oct 9**. Remember to include the names and  email addresses of the group members. 
+* Each group must present the proposal during class hours on **Oct 11**.
+* Each group must turn in a 6- to 8-page final report via email **on or before 6:00PM EST on May 1.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. 
+
 
 ## Tentative Grading
 |                         | Weight | 
 | ------------------------| ------:| 
-| Paper Presentation      | 15%    | 
-| Paper Summary           | 15%    | 
+| Paper Presentation      | 20%    | 
+| Paper Review            | 10%    | 
 | Participation           | 10%    | 
+| Project Proposal        | 5%    | 
+| Project Presentations   | 15%    | 
 | Project Report          | 40%    | 
-| Project Presentations   | 20%    | 
 
 
 ## Acknowledgement

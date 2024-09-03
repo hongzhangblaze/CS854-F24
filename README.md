@@ -28,8 +28,8 @@ We will read recent papers to understand trends and important topics in serving 
 ## Tentative Schedule and Reading List
 *This is an evolving list and the schedule is subject to changes.* 
 
-| Date    | Readings                       | Presenter | Summary | Reviewer
-| --------| -------------------------------| --------- | ------- | -------
+| Date    | Readings                       | Presenter |   Reviewer
+| --------| -------------------------------| --------- |   -------
 | Sept 6  | **Introduction** | Hong
 |         | [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) 
 |         | [How to Give a Bad Talk](http://www.cs.berkeley.edu/~pattrsn/talks/BadTalk.pdf) 

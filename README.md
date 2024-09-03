@@ -42,8 +42,8 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Required) | Xiaodian
 |         | [The Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/) (optional)
 |         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349) (optional)
-|         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) 
-|         | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) 
+|         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) |Hong
+|         | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) |Hong
 | Sept 20 | **Memory Management**
 |         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
 |         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)

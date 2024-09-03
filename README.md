@@ -7,11 +7,10 @@
 ### Instructor
 [Hong Zhang](https://hongzhangblaze.github.io/) 
 
-Email: honzhang at uwaterloo dot ca
+Email: honzhang at uwaterloo dot ca (for general queries, presentation slides, and paper summaries)
 
 Office: DC3530 (office hours by appointment)
 
-Presentation slides and paper summaries should be emailed to the email address above.
 
 ## Course Description
 Generative AI (GenAI) applications are revolutionizing the world. The latest GenAI models such as GPT-4 have achieved unprecedented performance in various tasks such as code generation, text classification, and problem reasoning. However, serving GenAI applications, i.e., deploying trained GenAI models on a compute cluster and conducting model inference for incoming user requests, presents challenges in systems design. 
@@ -45,71 +44,52 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Attention is All You Need](https://dl.acm.org/doi/10.5555/3295222.3295349) (optional)
 |         | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) 
 |         | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) 
-| Sep 20  | **Memory Management**
+| Sept 20 | **Memory Management**
 |         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
 |         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
 |         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) 
 |         | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/pdf/2312.11514) (optional)
 | Sep 27  | **Prefill _vs._ Decode**
-|         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) + [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Required)
-|         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369) +  [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) 
-| Sep 27  | **Parallelism**
+|         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) (required)
+|         | [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Optional)
+|         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369) (required)  
+|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) 
+| Oct 4   | **Parallelism**
 |         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
 |         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
 |         | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) 
-
-| Sep 27  | **Compound AI Systems**
+| Oct 11  | **Scheduling + Project proposal**
+|         | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required)
+|         | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional)
+|         | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required)
+|         | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference (https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional)
+|         | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional)
+| Oct 25  | **Scheduling (Continued) and Faster Decoding**
+|         | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) 
+|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
+|         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required) 
+| Nov 1   | **Retrieval-Augmented Generation**
+|         | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required)
+|         | [RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457) (Required)
+|         | [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444) (Required) 
+| Nov 8   | **Compound AI Systems**
 |         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
 |         | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
 |         | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Required)
-|         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)(Background)
-
-
-
-
-
-
-
-| Sep 27  | **Scheduling**
-|         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
-|         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
-|         | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://proceedings.mlr.press/v202/sheng23a.html(https://arxiv.org/pdf/2404.09526) (Required) 
-
-| Sep 27  | **Scheduling (Continued) and Faster Decoding**
-|         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
-|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
-|         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required) 
-
-
-| Sep 27  | **Retrieval-Augmented Generation**
-|         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
-|         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
-|         | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://proceedings.mlr.press/v202/sheng23a.html(https://arxiv.org/pdf/2404.09526) (Required) 
-Prompt Cache: Modular Attention Reuse for Low-Latency Inference
-RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation
-CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion
-![image](https://github.com/user-attachments/assets/6684db60-d0f3-4c34-a1d6-a001d371964f)
-
-
-
-| Sep 27  | **Serving in the Wild**
+|         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Optional)
+|         | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background)
+| Nov 15  | **Serving in the Wild**
 |         | [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://arxiv.org/pdf/2311.15566) (Required)
 |         | [ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models](https://arxiv.org/pdf/2401.14351) (Required)
 |         | [M´elange: Cost Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/pdf/2404.14527) (Required) 
 |         | [Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs](https://arxiv.org/pdf/2406.01566) (Optional)
-
-
-
-
-| Oct 15  | **Cache Management**
+| Nov 22  | **Cache Management**
 |         | [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707) (Required)
 |         | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240)(Required)
 |         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention] (https://arxiv.org/abs/2403.19708) (Required)
 |         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache] (https://arxiv.org/abs/2401.02669) (Optional)
 |         | [Stateful Large Language Model Serving with Pensieve] https://arxiv.org/pdf/2312.05516 (Optional)
-
-
-| Sep 27  | **Other Important Topics**
+| Nov 22  | **Other Important Topics**
 |         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)
 |         | [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) (Required)
 |         | [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/abs/2311.03285) (Optional)
@@ -117,46 +97,9 @@ CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusi
 |         | [LoRA: Low-Rank Adaptation of Large Language Models](https://openreview.net/forum?id=nZeVKeeFYf9) (Optional)
 |         | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ) (Optional)
 |         | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Optional)
-
-
-
-
-| Sep  27 | [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/forum?id=B1ckMDqlg) (Required)
-|         | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://openreview.net/forum?id=ztn8FCR1td) (Required)
-|         | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)
-| Sep 10  | **No Lecture: Work on Project Proposals**
-|         | [Worse is Better](https://en.wikipedia.org/wiki/Worse_is_better) (Required)
-|
-|         | **Post-Training**
-| Oct  1  | [LoRA: Low-Rank Adaptation of Large Language Models](https://openreview.net/forum?id=nZeVKeeFYf9) (Required)
-
-|         | **Inference**
-| Oct  3  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required)
-|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
-|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html)
-| Oct  8  | [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://openreview.net/forum?id=mZn2Xyh9Ec) (Required)
-|         | [FlashDecoding++: Faster Large Language Model Inference with Asynchronization, Flat GEMM Optimization, and Heuristics](https://proceedings.mlsys.org/paper_files/paper/2024/hash/5321b1dabcd2be188d796c21b733e8c7-Abstract-Conference.html)
-|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
-| Oct 10  | [Splitwise: Efficient Generative LLM Inference Using Phase Splitting](https://ieeexplore.ieee.org/abstract/document/10609649) (Required)
-|         | [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin)
-|         | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required)
-
-| Oct 17  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/abs/2404.16283) (Required)
-|         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)
-|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/conference/osdi24/presentation/agrawal)
-| Oct 22  | **Mid-Semester Presentations**
-| Oct 24  | **Mid-Semester Presentations**
-| Oct 29  | **No Lecture: Recalibrate Projects**
-| Oct 31  | **No Lecture: Work on Projects**
-| Nov  5  | **No Lecture: Work on Projects**
-| Nov  7  | [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) (Required)
-|         | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Background)
-|         | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ)
-
-| Nov 28  | **No Lecture: Thanksgiving Recess**
-| Dec  3  | **No Lecture: Work on Posters**
-|         | [How to Write a Great Research Paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/) (Required)
-| Dec  5  | **Final Poster Presentations**<br>TBA
+|         | [Vidur: A Large-Scale Simulation Framework For LLM Inference](https://arxiv.org/abs/2405.05465) (Optional)
+|         | [LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale](https://arxiv.org/abs/2408.05499v1) (Optional)
+| Nov  29 | **Final Project Presentations**
 
 
 ## Policies

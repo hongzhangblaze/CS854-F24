@@ -111,9 +111,7 @@ There are also some *optional* related reading(s) that the presenter(s) should b
 
 **During Lectures**: Active participation is crucial for both your own understanding and to improve the overall quality of the course. You are expected to attend **all** lectures (up to 2 absences allowed for legitimate reasons), and more importantly, participate in class discussions. Not everyone must have add something every day, but it is expected that everyone has something to share over the semester.
 
-**After Lectures**: Participation also involves contributing to discussions on [Piazza](https://piazza.com/uwaterloo.ca/fall2024/cs854
-![image](https://github.com/user-attachments/assets/c9b4d7aa-66c6-4469-aa4d-f0dd2dd3ae3e)
-). The group responsible for the summary should initiate the (remaining) discussion, and the rest of the members are encouraged to participate.
+**After Lectures**: Participation also involves contributing to discussions on [Piazza](https://piazza.com/uwaterloo.ca/fall2024/cs854). The group responsible for the summary should initiate the (remaining) discussion, and the rest of the members are encouraged to participate.
 
 
 ### Student Lectures

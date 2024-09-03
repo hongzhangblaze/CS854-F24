@@ -7,7 +7,7 @@
 ### Instructor
 [Hong Zhang](https://hongzhangblaze.github.io/) 
 
-Email: honzhang at uwaterloo dot ca (for general queries, presentation slides, and paper summaries)
+Email: honzhang at uwaterloo dot ca (to submit presentation slides and paper summaries)
 
 Office: DC3530 (office hours by appointment)
 
@@ -89,7 +89,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/abs/2403.19708) (Required)
 |         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional)
 |         | [Stateful Large Language Model Serving with Pensieve](https://arxiv.org/pdf/2312.05516) (Optional)
-| Nov 22  | **（Alternatives）Other Important Topics**
+| Nov 22  | **（Alternative plan）Other Important Topics**
 |         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)
 |         | [dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving](https://www.usenix.org/conference/osdi24/presentation/wu-bingyang) (Required)
 |         | [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/abs/2311.03285) (Optional)
@@ -105,31 +105,27 @@ We will read recent papers to understand trends and important topics in serving 
 ## Policies
 
 
-### Groups
-All activities of this course will be performed in **groups of 2-3 students**.
-
 ### Required Reading
-Each lecture will have **two required reading that everyone must read**.  
-There will be *one or more optional related reading(s)* that only the presenter(s) should be familiar with.
-They are optional for the rest of the class.
+Each lecture will have **three _required_ readings that everyone must read and will be presented in the class**. 
+
+There are *background* readings providing some necessary background for the corresponding topic.
+
+There are also *optional* related reading(s) that the presenter(s) should be familiar with. They are optional for the rest of the class.
 
 ### Student Lectures
-The course will be conducted as a seminar. 
-Only one group will present in each class.
-Each group will be assigned *at least one lecture* over the course of the semester. 
-Presentations should last **at most 40 minutes** without interruption.
-However, presenters should expect questions and interruptions throughout. 
+The course will be structured as a seminar. 
+Each student will be assigned at least one paper to present over the course of the semester. Only the students assigned will present in each class. Since there are three required readings, there will be three student presenters assigned each day.
+Presentations for each paper should last **around 35-45 minutes** without interruption. However, presenters should expect questions and interruptions throughout. 
+The presenters are free to come up with separate presentations or work together to merge their presentations. However, the goal of your presentation must be the following:
 
-In the presentation, you should:
-
-* Provide necessary background and motivate the problem.
-* Present the high level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading as well as the additional reading. 
+* Provide necessary background and motivate the problem. Note that in principle, each lecture has a “theme” such that the papers are connected in some way. For instance, perhaps they are trying to solve the same problem using different approaches, or maybe one is building on top of the other. Your presentation should try to make this connection.
+* Present the high-level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading. 
 * Discuss technical details so that one can understand key details without carefully reading.
 * Explain the differences between related works.
 * Identify strengths and weaknesses of the required reading and propose directions of future research.
 
-*The slides for a presentation must be emailed to the instructor team at least 24 hours prior to the corresponding class.* 
-Use Google slides to enable in-line comments and suggestions.
+*The slides for a presentation must be emailed to the instructor at least 24 hours before the corresponding class.* 
+
 
 ### Lecture Summaries
 Each group will also be assigned to **write summaries for at least one lectures**. 

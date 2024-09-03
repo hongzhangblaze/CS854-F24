@@ -147,7 +147,7 @@ Use Google doc to enable in-line comments and suggestions.
 *Allocate enough time for your reading, discuss as a group, write the summary carefully, and finally, include key observations from the class discussion.*
 
 ### Post-Presentation Panel Discussion 
-To foster a deeper understanding of the papers and to encourage critical thinking, each lecture will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
+To foster a deeper understanding of the papers and to encourage critical thinking, each lecture (from Lecture 3) will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
 #### Roles and Responsibilities
 
@@ -158,8 +158,9 @@ To foster a deeper understanding of the papers and to encourage critical thinkin
 
 2. **The Reviewers/ **
 - Three additional students will be assigned to be the “reviewers” for the required papers in each class. 
-- Responsibility: Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
+- Responsibility: Each reviewer will review all three required papers, and write a detailed review for each. The review must be 1-2 pages long. Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
 Your goal is to engage in a constructive critique of the paper, simulating a peer review scenario.
+- You must use this [template](https://github.com/hongzhangblaze/CS854-F24/blob/main/review_template.txt) for your review. You should submit your reviews before the lecture. Late submissions will not be entertained. 
 
  
 3. **Rest of the Class**

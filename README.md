@@ -6,7 +6,9 @@
 
 ### Instructor
 [Hong Zhang](https://hongzhangblaze.github.io/) 
+
 Email: honzhang at uwaterloo dot ca
+
 Office: DC3530 (office hours by appointment)
 
 Presentation slides and paper summaries should be emailed to the email address above.

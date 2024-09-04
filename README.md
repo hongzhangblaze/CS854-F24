@@ -155,7 +155,7 @@ Surveys are not permitted as projects; instead, each project must contain a surv
 
 You must meet the following milestones (unless otherwise specified in future announcements) to ensure a high-quality project at the end of the semester:
 
-* Form a group of 2-3 members by **Sept 27**. After this date, we will form groups from the remaining students.
+* Form a group of 2-4 members by **Sept 27**. After this date, we will form groups from the remaining students.
 * Turn in a 2-page draft proposal (including references) by **Oct 9**. Remember to include the names and  email addresses of the group members. 
 * Each group must present the proposal during class hours on **Oct 11**.
 * Each group must turn in a 6- to 8-page final report via email **on or before 6:00PM EST on May 1.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. 

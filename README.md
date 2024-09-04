@@ -58,14 +58,14 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)
 |         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)
 |         | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) 
-| Oct 11  | **Scheduling + Project proposal**
+| Oct 11  | **Scheduling**
 |         | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required)
 |         | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional)
 |         | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required)
+|         | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) 
 |         | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional)
 |         | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional)
-| Oct 25  | **Scheduling (Continued) and Faster Decoding**
-|         | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) 
+| Oct 25  | **Faster Decoding + Project Proposal**
 |         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
 |         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required) 
 | Nov  1  | **Compound AI Systems**
@@ -134,7 +134,7 @@ The presenters are free to come up with separate presentations or work together 
 ### Post-Presentation Panel Discussion 
 To foster a deeper understanding of the papers and to encourage critical thinking, each lecture (from Lecture 3) will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
-#### Roles and Responsibilities
+#### Roles and Responsibilitiesoct
 
 1. **The Authors**
 - The students who present will play the role of the authors.
@@ -157,8 +157,8 @@ Surveys are not permitted as projects; instead, each project must contain a surv
 You must meet the following milestones (unless otherwise specified in future announcements) to ensure a high-quality project at the end of the semester:
 
 * Form a group of 2-4 members by **Sept 27**. After this date, we will form groups from the remaining students.
-* Turn in a 2-page draft proposal (including references) by **Oct 9**. Remember to include the names and  email addresses of the group members. 
-* Each group must present the proposal during class hours on **Oct 11**.
+* Turn in a 2-page draft proposal (including references) by **Oct 23**. Remember to include the names and  email addresses of the group members. 
+* Each group must present the proposal during class hours on **Oct 25**.
 * Each group must turn in a 6- to 8-page final report via email **on or before Dec 9.** The report must be submitted as a PDF file, with formatting similar to that of the papers you've read in the class. 
 
 

@@ -174,5 +174,6 @@ You must meet the following milestones (unless otherwise specified in future ann
 
 
 ## Acknowledgement
-*The course is heavily inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich), CS8803: Systems for AI - LLMs(Gatech), and CS 598: Systems for Generative AI (UIUC).
+*The course is heavily inspired by CSE 585: Advanced Scalable Systems for Generative AI (UMich), CS 598: Systems for Generative AI (UIUC), CS8803: Systems for AI - LLMs(Gatech), and 294-162 Machine Learning Systems (UC Berkeley).
+.
 

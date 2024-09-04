@@ -122,9 +122,8 @@ Presentations for each paper should last **around 35-45 minutes** without interr
 The presenters are free to come up with separate presentations or work together to merge their presentations. However, the goal of your presentation must be the following:
 
 * Provide necessary background and motivate the problem. Note that in principle, each lecture has a “theme” such that the papers are connected in some way. For instance, perhaps they are trying to solve the same problem using different approaches, or maybe one is building on top of the other. Your presentation should try to make this connection.
-* Provide sufficient background information and motivation 
-* Clearly describe the problem 
-* Present the challenge, high-level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading. 
+* Clearly describe the problem the paper solves and the corresponding challenges. 
+* Present the high-level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading. 
 * Discuss technical details so that one can understand key details without carefully reading.
 * Explain the differences between related works.
 * Identify strengths and weaknesses of the required reading and propose directions of future research.

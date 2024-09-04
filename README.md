@@ -164,12 +164,12 @@ You must meet the following milestones (unless otherwise specified in future ann
 ## Tentative Grading
 |                         | Weight | 
 | ------------------------| ------:| 
-| Paper Presentation      | 20%    | 
-| Paper Review            | 10%    | 
+| Paper Presentation      | 25%    | 
+| Paper Review            | 15%    | 
 | Participation           | 10%    | 
 | Project Proposal        | 5%    | 
 | Project Presentations   | 15%    | 
-| Project Report          | 40%    | 
+| Project Report          | 30%    | 
 
 
 ## Acknowledgement

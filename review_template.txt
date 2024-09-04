@@ -10,7 +10,6 @@ By STUDENT_NAME (ID)
 What is the problem addressed in the lecture, and why is this problem important?
 What is the state of related works in this topic?
 What is the proposed solution, and what key insight guides their solution?
-What is one (or more) drawback or limitation of the proposal?
 What are potential directions for future research?
 
 ## Paper Strengths

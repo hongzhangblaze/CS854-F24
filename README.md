@@ -108,7 +108,7 @@ We will read recent papers to understand trends and important topics in serving 
 ### Participation
 **Before Each Lecture**: Each lecture will have **three _required_ readings that everyone must read and will be presented in the class**. 
 For some lectures, there will be some *background* readings providing necessary knowledge for the corresponding topic.
-There are also some *optional* related reading(s) that the presenter(s) should be familiar with. They are optional for the rest of the class.
+There are also some *optional* related reading(s) under the theme. They are optional for the class.
 
 **During Lectures**: Active participation is crucial for both your own understanding and to improve the overall quality of the course. You are expected to attend **all** lectures (up to 2 absences allowed for legitimate reasons), and more importantly, participate in class discussions. Not everyone must have add something every day, but it is expected that everyone has something to share over the semester.
 
@@ -122,7 +122,9 @@ Presentations for each paper should last **around 35-45 minutes** without interr
 The presenters are free to come up with separate presentations or work together to merge their presentations. However, the goal of your presentation must be the following:
 
 * Provide necessary background and motivate the problem. Note that in principle, each lecture has a “theme” such that the papers are connected in some way. For instance, perhaps they are trying to solve the same problem using different approaches, or maybe one is building on top of the other. Your presentation should try to make this connection.
-* Present the high-level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading. 
+* Provide sufficient background information and motivation 
+* Clearly describe the problem 
+* Present the challenge, high-level idea, approach, and/or insight (using examples, whenever appropriate) in the required reading. 
 * Discuss technical details so that one can understand key details without carefully reading.
 * Explain the differences between related works.
 * Identify strengths and weaknesses of the required reading and propose directions of future research.

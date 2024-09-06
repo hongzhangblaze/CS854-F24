@@ -111,7 +111,7 @@ We will read recent papers to understand trends and important topics in serving 
 For some lectures, there will be some *background* readings providing necessary knowledge for the corresponding topic.
 There are also some *optional* related reading(s) under the theme. They are optional for the class.
 
-**During Lectures**: Active participation is crucial for both your own understanding and to improve the overall quality of the course. You are expected to attend **all** lectures (up to 2 absences allowed for legitimate reasons), and more importantly, participate in class discussions. Not everyone must have add something every day, but it is expected that everyone has something to share over the semester.
+**During Lectures**: Active participation is crucial for both your own understanding and to improve the overall quality of the course. You are expected to attend **all** lectures, and more importantly, participate in class discussions. Not everyone must have add something every day, but it is expected that everyone has something to share over the semester.
 
 **After Lectures**: Participation also involves contributing to discussions on [Piazza](https://piazza.com/uwaterloo.ca/fall2024/cs854). The group responsible for the summary should initiate the (remaining) discussion, and the rest of the members are encouraged to participate.
 

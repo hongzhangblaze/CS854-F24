@@ -46,8 +46,8 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) |Hong
 | Sept 20 | **Memory Management**
 |         | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required) | Prashanth | Sairaj 
-|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required)
-|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) 
+|         | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Required) | Wenhao | Xiaodian
+|         | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) | Hongzhou
 |         | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/pdf/2312.11514) (optional)
 | Sep 27  | **Prefill _vs._ Decode**
 |         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://dl.acm.org/doi/10.1145/3600006.3613165) (required)
@@ -66,7 +66,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional)
 |         | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional)
 | Oct 25  | **Faster Decoding + Project Proposal**
-|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required)
+|         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required) | Sairaj 
 |         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required) 
 | Nov  1  | **Compound AI Systems**
 |         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)

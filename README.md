@@ -81,7 +81,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [LoRA: Low-Rank Adaptation of Large Language Models](https://openreview.net/forum?id=nZeVKeeFYf9) (Optional)
 |         | TBD (Invited Talk)  | [Hao Zhang](https://cseweb.ucsd.edu/~haozhang/)
 | Nov 15  | **Serving with Retrieval-Augmented Generation**
-|         | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required)
+|         | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required)     |   | Prashanth          
 |         | [RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457) (Required)
 |         | [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444) (Required) 
 | Nov 22  | **Serving in the Wild**

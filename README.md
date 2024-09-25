@@ -53,7 +53,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf)  (required)  | Gaurav | Khushee
 |         | [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Optional)
 |         | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369) (required)   | Ronak | Eric
-|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required)   | Michael |  Karthik
+|         | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required)   | Michael |  
 | Oct 4   | **Parallelism**
 |         | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)  |   Kerem | Amir
 |         | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)     |  Dongfu | Bishwajit
@@ -67,10 +67,10 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional)
 | Oct 25  | **Faster Decoding + Project Proposal**
 |         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required) | Sairaj | Hongzhou
-|         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required)  |   Bishwajit | Benjamin
+|         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Required)  |     | Benjamin
 | Nov  1  | **Compound AI Systems**
 |         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)   | Amir | Rui Felipe
-|         | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)     |  Karthik    | Dongfu
+|         | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)     |       | Dongfu
 |         | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional)
 |         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Optional)
 |         | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background)

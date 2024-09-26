@@ -134,7 +134,7 @@ The presenters are free to come up with separate presentations or work together 
 ### Post-Presentation Panel Discussion 
 To foster a deeper understanding of the papers and to encourage critical thinking, each lecture (from Lecture 3) will be followed by a panel discussion. This discussion will feature three distinct roles played by different student groups, simulating an interactive and dynamic scholarly exchange. 
 
-#### Roles and Responsibilitiesoct
+#### Roles and Responsibilities
 
 1. **The Authors**
 - The students who present will play the role of the authors.
@@ -142,7 +142,7 @@ To foster a deeper understanding of the papers and to encourage critical thinkin
 
 2. **The Reviewers**
 - Additional students will be assigned to be the “reviewers” for the required papers in each class. 
-- Responsibility: Each reviewer will review all three required papers, and write a detailed review for each. The review must be 3-4 pages long. Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
+- Responsibility: Each reviewer will write a detailed review for the paper assigned. The review must be 3-4 pages long. Reviewers critically assess the paper, posing challenging questions and highlighting potential weaknesses or areas for further investigation. 
 Your goal is to engage in a constructive critique of the paper, simulating a peer review scenario.
 - You must use this [template](https://github.com/hongzhangblaze/CS854-F24/blob/main/review_template.txt) for your review. You should submit your reviews before the lecture. Late submissions will not be entertained. 
 

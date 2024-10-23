@@ -73,7 +73,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)   | Amir | Rui Felipe
 |         | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)     |   Xiaodian    | Dongfu
 |         | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional)
-|         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  Wenhao    | Benjamin
+|         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  Ronak    | Benjamin
 |         | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background)
 | Nov 8   | **Invited talks**
 |         | [Punica: Multi-Tenant LoRA Serving](https://proceedings.mlsys.org/paper_files/paper/2024/file/054de805fcceb78a201f5e9d53c85908-Paper-Conference.pdf) (Invited Talk)  | [Lequn Chen](https://abcdabcd987.com/about/)
@@ -96,7 +96,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240) (Optional)
 |         | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/abs/2403.19708) (Optional)
 |         | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional)
-|         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)  | Ronak  |  Kerem
+|         | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required)  | Wenhao   |  Kerem
 |         | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) (Optional)
 |         | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ) (Optional)
 |         | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Optional)

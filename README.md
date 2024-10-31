@@ -70,7 +70,7 @@ We will read recent papers to understand trends and important topics in serving 
 |         | [SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification](https://dl.acm.org/doi/10.1145/3620666.3651335) (Required) | Sairaj | Hongzhou
 |         | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Optional) 
 | Nov  1  | **Compound AI Systems**
-|         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required)   | Amir | Rui Felipe
+|         | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf) (Required)   | Amir | Rui Felipe
 |         | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required)     |   Xiaodian    | Dongfu
 |         | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional)
 |         | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  Ronak    | Benjamin

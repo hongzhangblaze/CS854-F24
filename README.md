@@ -1,4 +1,4 @@
-# CS854-Fall25: Advanced Topics in Computer Systems --- Model Serving Systems for GenAI
+# CS854-Fall24: Advanced Topics in Computer Systems --- Model Serving Systems for GenAI
 
 ## Administrivia
 * Lectures: DC2568, Friday: 1:30 PM – 4:20 PM
